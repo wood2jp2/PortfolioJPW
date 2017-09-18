@@ -7936,7 +7936,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #973BFE;
 }
 
 .carousel {
@@ -8024,8 +8024,11 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #fff;
+  background-color: #7c4dff;
 }
+
+
+/*//fff / 4CAF50 */
 
 .carousel.scrolling .carousel-item .materialboxed, .carousel .carousel-item:not(.active) .materialboxed {
   pointer-events: none;

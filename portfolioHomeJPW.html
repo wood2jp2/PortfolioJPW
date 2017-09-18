@@ -15,19 +15,24 @@
 <body>
 
   <div class="slider fullscreen">
+
     <ul class="slides">
       <li>
+
         <img src="images/shanghai.jpg">
-        <!-- random image -->
         <div class="caption center-align">
+
           <h3>Welcome to Joshua Wood's portfolio site!</h3>
           <h5 class="light grey-text text-lighten-3">Thanks for visiting. Feel free to look around!</h5>
+          <br>
           <a href="portfolioIndexJPW.html">
-              <button class="btn waves-effect waves-light pulse deep-purple accent-2" type="submit" name="action">Explore
+              <button class="btn waves-effect waves-light pulse deep-purple accent-2" type="submit" name="action">
                 <i class="material-icons right">code</i>
               </button>
           </a>
+          <a data-activates='slide-out' class="btn-floating btn-large waves-effect waves-light red button-collapse deep-purple accent-2"><i class="material-icons">menu</i></a>
         </div>
+
       </li>
       <li>
         <img src="images/dc.jpg">
@@ -35,15 +40,42 @@
         <div class="caption right-align">
           <h3>Jump right to my projects!</h3>
           <h5 class="light grey-text text-lighten-3">Click the button below to check out what I've worked on.</h5>
+          <br>
           <a href="portfolioProjectsJPW.html">
-          <button class="btn waves-effect waves-light pulse deep-purple accent-2" type="submit" name="action">Explore
-            <i class="material-icons right">code</i>
-          </button>
+          <button class="btn waves-effect waves-light pulse deep-purple accent-2" type="submit" name="action"><i class="material-icons right">code</i></button>
           </a>
+          <a data-activates='slide-out' class="btn-floating btn-large waves-effect waves-light red button-collapse deep-purple accent-2"><i class="material-icons">menu</i></a>
         </div>
       </li>
     </ul>
+
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/space.jpg">
+          </div>
+          <a><img id='navbarPic' class="" width='134px' height='134px' src="images/josh.jpg"></a>
+          <a><span class="white-text name">Josh Wood</span></a>
+          <a><span class="white-text email">wood2jp2@gmail.com</span></a>
+          <a><span class="white-text">703-459-3345</span></a>
+        </div>
+      </li>
+      <li id='navbarLinkedin'><a href='https://www.linkedin.com/in/joshua-wood/' target='_blank'><img src="images/linkedinicon.png" width='32px' height='32px' alt="LinkedIn icon">LinkedIn</a></li>
+      <li id='navbarGitHub'><a href='https://github.com/wood2jp2' target='_blank'><img src="images/ghicon.png" alt="GitHub icon">GitHub</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Site</a></li>
+      <li><a class="waves-effect" href="portfolioIndexJPW.html">Home</a></li>
+      <li><a class="waves-effect" href="portfolioProjectsJPW.html">Portfolio</a></li>
+      <li><a class="waves-effect" href="portfolioContactJPW.html">Contact<i class="material-icons">call</i></a></li>
+      <li><a class="waves-effect" href="portfolioResumeJPW.html">Resume</a></li>
+    </ul>
+
   </div>
+
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>

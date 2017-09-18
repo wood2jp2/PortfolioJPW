@@ -55,3 +55,22 @@ html {
   background-image: url('../images/amazon.jpg');
   background-size: cover;
 }
+
+div.section.white {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+
+div.section.white p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+#navbarPic {
+  border-radius: 15px
+}
