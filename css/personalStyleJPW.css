@@ -15,3 +15,43 @@ main {
 html {
   font-family: 'Cardo', serif;
 }
+
+#curb {
+  background-image: url('../images/curb.jpg');
+  background-size: cover;
+}
+
+#burger {
+  background-image: url('../images/burger.jpg');
+  background-size: cover;
+}
+
+#sc {
+  background-image: url('../images/sc.jpg');
+  background-size: cover;
+}
+
+#crystal {
+  background-image: url('../images/dragon.gif');
+  background-size: cover;
+}
+
+#train {
+  background-image: url('../images/train.jpg');
+  background-size: cover;
+}
+
+#seinfeld {
+  background-image: url('../images/seinfeld.jpg');
+  background-size: cover;
+}
+
+#liri {
+  background-image: url('../images/siri.jpg');
+  background-size: cover;
+}
+
+#bamazon {
+  background-image: url('../images/amazon.jpg');
+  background-size: cover;
+}
